@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC  
+ "-//Hibernate/Hibernate Mapping DTD 5.3//EN"  
+ "http://hibernate.sourceforge.net/hibernate-mapping-5.3.dtd"> 
+ 
+ 
+ <hibernate-mapping>
+ 	<class name="com.dxc.HibernatePro2.persist.Employee" table="javab13">
+ 	<id name="roll">
+ 	
+ 	<generator class="assigned"></generator>
+ 	</id>
+ 	<property name="ename" length="20"></property>
+ 	<property name="job" length="20"></property>
+
+ 	</class>
+ 
+ </hibernate-mapping>
+
+
